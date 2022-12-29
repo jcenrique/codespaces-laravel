@@ -1,0 +1,10 @@
+
+@import "/node_modules/leaflet/dist/leaflet.css";
+@import "/node_modules/leaflet-sidebar-v2/css/leaflet-sidebar.css";
+@import "~@fortawesome/fontawesome-free/css/fontawesome";
+@import "~@fortawesome/fontawesome-free/css/regular";
+@import "~@fortawesome/fontawesome-free/css/solid";
+@import "~@fortawesome/fontawesome-free/css/brands";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

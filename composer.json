@@ -10,6 +10,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.7",
+        "orchid/platform": "^13.9",
         "predis/predis": "^1.1"
     },
     "require-dev": {
@@ -42,6 +43,9 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan orchid:publish --ansi"
         ]
     },
     "extra": {
